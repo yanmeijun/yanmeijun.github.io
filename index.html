@@ -2,60 +2,33 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Document</title>
-	<style>
-	*{
-		margin: 0;
-		padding: 0;
-		list-style: none
-	}
-	#wrap{
-		
-		height: 500px;
-		margin: 20px auto
-	}
-	#list,#oli{
-		float: left;
-		margin-right: 10px
-	}
-	#list li,#oli li{
-		height: 30px;
-		line-height: 35px;
-		margin-top: 20px
-	}
-	.pro{
-		width: 300px;
-		height: 30px;
-		background: #ccc;
-		position: relative;
-	}
-	.pro_box{
-		height: 30px;
-		background: orange;
-	}
-	.left{
-		position:absolute;
-		right: -40px;
-		top: 0
-	}
-	.sp{
-		width: 20px;
-		height: 30px;
-		background:orange;
-		position: absolute;
-		top:0;
-
-	}
-	</style>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<div id="wrap">
-		<ul id="list">
-			<li>好评</li>
-			<li>中评</li>
-			
-		</ul>
+	<div class="wrap">
+		<header>
+			<!-- <img src="images/1_03.jpg" alt="" class="logo"> -->
+			<h1>welcome to my home pages</h1>
+		</header>
+		<div class="main">
+			<div class="main_head">
+				<dl>
+					<dt><img src="images/1.jpg" alt=""></dt>
+					<dd>Miss</dd>
+				</dl>
+			</div>
+			<div class="main_menu">
+				<h2>个人信息</h2>
+				<ul>
+					<li><a href="">特长：</a></li>
+					<li><a href="">爱好：</a></li>
+					<li><a href="">关于：</a></li>
+				</ul>
+			</div>
+		</div>
 	</div>
-	<script src="js/require.js" data-main="js/base"></script>
 </body>
 </html>
